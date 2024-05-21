@@ -19,6 +19,7 @@ Installation
 
 To install the required packages for the muonlab software, install the conda environment (you can also use mamba instead of conda if you have mamba installed). 
 
+.. code:: bash
     conda env create -f environment.yml
 
 (Note that on conda-forge only PyQt5 is available!)
@@ -27,10 +28,12 @@ Next, you will have to follow the installation instructions of the muonlab softw
 
 In essence, you clone the muonlab repository:
 
+.. code:: bash
     git clone https://gitlab.nikhef.nl/muonlab/muonlab.git
 
 Then, switch to the directory you cloned the repository to. Then try to run the GUI:
 
+.. code:: bash
     python GUI/MuonLab_GUI_PyQt5.py
 
 Make sure to use the script with the `_PyQt5` extension, since this is what is installed with conda at the moment. The version of the GUI
