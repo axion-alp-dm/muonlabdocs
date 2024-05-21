@@ -1,0 +1,23 @@
+# Conda environment for marmot development
+#
+# Install:    conda env create -f environment.yml
+# Update:     conda env update -f environment.yml
+# Activate:   conda activate muonlab
+# Deactivate: conda deactivate
+
+name: muonlab
+
+channels:
+  - conda-forge
+
+dependencies:
+  - pyserial
+  - numpy
+  - scipy
+  - matplotlib
+  - ipython
+  - nb_conda_kernels
+  - jupyter
+  - jupyterlab
+  - pandas
+  - pyqt
