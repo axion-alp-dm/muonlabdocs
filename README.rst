@@ -11,7 +11,7 @@ The required software is described here: https://gitlab.nikhef.nl/muonlab/muonla
 Prerequisites
 -------------
 
-You should have an installation of the conda or mamba package managers installed. It also helps if you have git installed 
+You should have either `conda` or `mamba` package managers installed, see https://docs.anaconda.com/miniconda/. It also helps if you have `git` installed 
 but this is not strictly necessary. 
 
 Installation
